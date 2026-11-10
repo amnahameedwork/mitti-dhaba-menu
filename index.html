@@ -1,0 +1,97 @@
+<!-- Name: Amna Hameed | Roll No: i263058 | Section: B -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mitti Dhaba Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mitti Dhaba</h1>
+        <p class="tagline">Desi khana, garam chai, aur dosti</p>
+    </header>
+
+    <!-- Welcome section with image -->
+    <section class="welcome">
+        <img src="images/chai.svg" alt="A cup of doodh patti chai">
+        <div class="welcome-text">
+            <h2>Welcome to Our Dhaba</h2>
+            <p>
+                Mitti Dhaba serves fresh desi food cooked on a wood fire, just like
+                the roadside dhabas on the GT Road. Every dish is made to order, and
+                our chai is brewed slowly with fresh milk and elaichi.
+            </p>
+            <p>Open daily from 5:00 PM to 2:00 AM.</p>
+        </div>
+    </section>
+
+    <!-- Menu table -->
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Item</th>
+                <th>Price (Rs.)</th>
+            </tr>
+            <tr>
+                <td>Chai</td>
+                <td>Doodh Patti</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Chai</td>
+                <td>Kashmiri Chai</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>Breakfast</td>
+                <td>Aloo Paratha</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>Breakfast</td>
+                <td>Halwa Puri</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Main Course</td>
+                <td>Chicken Karahi (Half)</td>
+                <td>950</td>
+            </tr>
+            <tr>
+                <td>Main Course</td>
+                <td>Daal Mash</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>Bread</td>
+                <td>Tandoori Roti</td>
+                <td>30</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Order section with button -->
+    <section class="order">
+        <h2>Feeling Hungry?</h2>
+        <p>Click the button below to place your order.</p>
+        <button onclick="placeOrder()">Order</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Mitti Dhaba, Blue Area, Islamabad | Phone: 0300-1234567</p>
+    </footer>
+
+    <script>
+        function placeOrder() {
+            console.log("Order button was clicked");
+            window.alert("Your order has been placed! Your food will be ready in 20 minutes.");
+        }
+    </script>
+
+</body>
+</html>
