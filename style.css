@@ -79,7 +79,7 @@ section {
     border-radius: 10px;
 }
 
-/* Today's Specials Table */
+/* Tables */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -118,6 +118,30 @@ tr:hover {
 .menu-link a:hover {
     color: #7f4f24;
     text-decoration: underline;
+}
+
+/* Menu Page Introduction */
+.menu-intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Menu Categories */
+.menu-category {
+    background-color: #f3e3c3;
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.menu-category h2 {
+    text-align: center;
+}
+
+/* Menu Order Buttons */
+.menu-category button {
+    display: block;
+    margin: 20px auto 0;
 }
 
 /* Order Section */
@@ -177,5 +201,10 @@ footer {
 
     th, td {
         padding: 7px;
+    }
+
+    .menu-category {
+        padding: 15px;
+        overflow-x: auto;
     }
 }

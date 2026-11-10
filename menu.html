@@ -1,0 +1,195 @@
+<!-- Name: Amna Hameed | Roll No: i263058 | Section: B -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mitti Dhaba - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mitti Dhaba</h1>
+        <p class="tagline">Desi khana, garam chai, aur dosti</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Page Introduction -->
+    <section class="menu-intro">
+        <h2>Our Full Menu</h2>
+        <p>Explore our delicious desi food, freshly prepared with traditional flavours.</p>
+    </section>
+
+    <!-- Chai Section -->
+    <section class="menu-category">
+        <h2>Chai</h2>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price (Rs.)</th>
+            </tr>
+            <tr>
+                <td>Doodh Patti</td>
+                <td>Traditional tea made with fresh milk</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Kashmiri Chai</td>
+                <td>Pink tea with a creamy taste</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>Green Tea</td>
+                <td>Light and refreshing herbal tea</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+        <button onclick="orderCategory('Chai')">Order</button>
+    </section>
+
+    <!-- Breakfast Section -->
+    <section class="menu-category">
+        <h2>Breakfast</h2>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price (Rs.)</th>
+            </tr>
+            <tr>
+                <td>Aloo Paratha</td>
+                <td>Hot and crispy potato-filled paratha</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>Halwa Puri</td>
+                <td>Traditional breakfast with halwa and puri</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Anda Paratha</td>
+                <td>Fresh paratha served with fried egg</td>
+                <td>180</td>
+            </tr>
+        </table>
+
+        <button onclick="orderCategory('Breakfast')">Order</button>
+    </section>
+
+    <!-- Main Course Section -->
+    <section class="menu-category">
+        <h2>Main Course</h2>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price (Rs.)</th>
+            </tr>
+            <tr>
+                <td>Chicken Karahi (Half)</td>
+                <td>Traditional spicy chicken karahi</td>
+                <td>950</td>
+            </tr>
+            <tr>
+                <td>Daal Mash</td>
+                <td>Slow-cooked lentils with desi spices</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>Chicken Handi</td>
+                <td>Creamy chicken cooked with traditional spices</td>
+                <td>1100</td>
+            </tr>
+        </table>
+
+        <button onclick="orderCategory('Main Course')">Order</button>
+    </section>
+
+    <!-- Breads Section -->
+    <section class="menu-category">
+        <h2>Breads</h2>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price (Rs.)</th>
+            </tr>
+            <tr>
+                <td>Tandoori Roti</td>
+                <td>Fresh bread baked in a clay oven</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Plain Naan</td>
+                <td>Soft and freshly baked naan</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Garlic Naan</td>
+                <td>Naan topped with garlic and butter</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+        <button onclick="orderCategory('Breads')">Order</button>
+    </section>
+
+    <!-- Drinks Section -->
+    <section class="menu-category">
+        <h2>Drinks</h2>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price (Rs.)</th>
+            </tr>
+            <tr>
+                <td>Fresh Lime</td>
+                <td>Refreshing fresh lime drink</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Cold Drink</td>
+                <td>Chilled soft drink</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Lassi</td>
+                <td>Traditional sweet yogurt drink</td>
+                <td>150</td>
+            </tr>
+        </table>
+
+        <button onclick="orderCategory('Drinks')">Order</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Mitti Dhaba, Blue Area, Islamabad | Phone: 0300-1234567</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function orderCategory(category) {
+            console.log(category + " category was ordered");
+            window.alert(category + " category has been ordered! Thank you for choosing Mitti Dhaba.");
+        }
+    </script>
+
+</body>
+</html>
