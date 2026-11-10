@@ -1,0 +1,101 @@
+<!-- Name: Amna Hameed | Roll No: i263058 | Section: B -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mitti Dhaba - Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mitti Dhaba</h1>
+        <p class="tagline">Desi khana, garam chai, aur dosti</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Gallery Introduction -->
+    <section class="gallery-intro">
+        <h2>Our Food Gallery</h2>
+        <p>Explore our delicious desi dishes, freshly prepared at Mitti Dhaba!</p>
+    </section>
+
+    <!-- Food Gallery -->
+    <section class="gallery">
+
+        <!-- Chicken Karahi -->
+        <div class="gallery-item">
+            <img src="images/karahi.svg" alt="Chicken Karahi">
+            <h3>Chicken Karahi</h3>
+            <p>Spicy and delicious traditional chicken karahi.</p>
+            <button onclick="likeDish('Chicken Karahi')">Like this dish</button>
+        </div>
+
+        <!-- Aloo Paratha -->
+        <div class="gallery-item">
+            <img src="images/paratha.svg" alt="Aloo Paratha">
+            <h3>Aloo Paratha</h3>
+            <p>Hot and crispy potato-filled paratha.</p>
+            <button onclick="likeDish('Aloo Paratha')">Like this dish</button>
+        </div>
+
+        <!-- Chai -->
+        <div class="gallery-item">
+            <img src="images/chai-cup.svg" alt="Doodh Patti Chai">
+            <h3>Doodh Patti Chai</h3>
+            <p>Fresh and creamy traditional Pakistani chai.</p>
+            <button onclick="likeDish('Doodh Patti Chai')">Like this dish</button>
+        </div>
+
+        <!-- Halwa Puri -->
+        <div class="gallery-item">
+            <img src="images/halwa-puri.svg" alt="Halwa Puri">
+            <h3>Halwa Puri</h3>
+            <p>A delicious traditional desi breakfast.</p>
+            <button onclick="likeDish('Halwa Puri')">Like this dish</button>
+        </div>
+
+        <!-- Daal -->
+        <div class="gallery-item">
+            <img src="images/daal.svg" alt="Daal Mash">
+            <h3>Daal Mash</h3>
+            <p>Slow-cooked lentils with traditional spices.</p>
+            <button onclick="likeDish('Daal Mash')">Like this dish</button>
+        </div>
+
+        <!-- Roti -->
+        <div class="gallery-item">
+            <img src="images/roti.svg" alt="Tandoori Roti">
+            <h3>Tandoori Roti</h3>
+            <p>Freshly baked bread from our clay oven.</p>
+            <button onclick="likeDish('Tandoori Roti')">Like this dish</button>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Mitti Dhaba, Blue Area, Islamabad | Phone: 0300-1234567</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function likeDish(dishName) {
+
+            console.log(dishName + " was liked!");
+
+            window.alert("You liked " + dishName + "! Thank you for visiting Mitti Dhaba.");
+
+        }
+    </script>
+
+</body>
+</html>
