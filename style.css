@@ -152,6 +152,67 @@ tr:hover {
     border-radius: 10px;
 }
 
+/* Contact Page */
+.contact-intro {
+    text-align: center;
+}
+
+.contact-info {
+    background-color: #f3e3c3;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.contact-info h2 {
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #f3e3c3;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #7f4f24;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 1px solid #7f4f24;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    align-self: center;
+    margin-top: 10px;
+}
+
+/* Buttons */
 button {
     background-color: #d62828;
     color: white;
@@ -188,6 +249,7 @@ footer {
 
     section {
         width: 90%;
+        box-sizing: border-box;
     }
 
     nav a {
@@ -206,5 +268,11 @@ footer {
     .menu-category {
         padding: 15px;
         overflow-x: auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        box-sizing: border-box;
+        width: 100%;
     }
 }
