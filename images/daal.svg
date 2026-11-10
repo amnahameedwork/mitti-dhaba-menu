@@ -1,0 +1,8 @@
+<!-- Name: Amna Hameed | Roll No: i263058 | Section: B -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<rect width="400" height="300" fill="#f3e3c3"/>
+<ellipse cx="200" cy="200" rx="140" ry="45" fill="#7f4f24"/>
+<path d="M60 160 q140 130 280 0 z" fill="#ffffff" stroke="#7f4f24" stroke-width="4"/>
+<ellipse cx="200" cy="160" rx="140" ry="30" fill="#e9c46a"/>
+<circle cx="170" cy="155" r="6" fill="#2a9d8f"/><circle cx="215" cy="165" r="6" fill="#2a9d8f"/><circle cx="240" cy="150" r="5" fill="#d62828"/><path d="M180 150 q20 -10 40 0" stroke="#ffffff" stroke-width="4" fill="none"/>
+</svg>
