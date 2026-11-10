@@ -1,0 +1,19 @@
+<!-- Name: Amna Hameed | Roll No: i263058 | Section: B -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+  <rect width="400" height="260" fill="#f3e3c3"/>
+  <!-- steam -->
+  <path d="M170 60 q-15 -20 0 -40" stroke="#b08968" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M200 60 q15 -20 0 -40" stroke="#b08968" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M230 60 q-15 -20 0 -40" stroke="#b08968" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- saucer -->
+  <ellipse cx="200" cy="215" rx="130" ry="22" fill="#7f4f24"/>
+  <!-- cup -->
+  <path d="M120 75 h160 l-18 130 h-124 z" fill="#ffffff" stroke="#7f4f24" stroke-width="5"/>
+  <ellipse cx="200" cy="78" rx="78" ry="12" fill="#c68b59"/>
+  <!-- handle -->
+  <path d="M276 100 q45 5 30 45 q-8 18 -38 15" stroke="#7f4f24" stroke-width="10" fill="none"/>
+  <!-- pattern on cup -->
+  <circle cx="175" cy="140" r="8" fill="#d62828"/>
+  <circle cx="200" cy="140" r="8" fill="#2a9d8f"/>
+  <circle cx="225" cy="140" r="8" fill="#d62828"/>
+</svg>
